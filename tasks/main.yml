@@ -1,0 +1,7 @@
+---
+- name: install tmux os pkgs
+  become: yes
+  become_user: root
+  package:
+    name: tmux
+    state: present
