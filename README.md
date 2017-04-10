@@ -2,7 +2,7 @@
 andrewrothstein.tmux
 =========
 
-Installs [tmux](https://tmux.github.io/)
+Installs [tmux](https://tmux.github.io/).
 
 Requirements
 ------------
