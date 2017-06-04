@@ -1,6 +1,6 @@
 andrewrothstein.tmux
 =========
-[![CircleCI](https://circleci.com/gh/andrewrothstein/ansible-tmux.svg?style=svg)](https://circleci.com/gh/andrewrothstein/ansible-tmux)
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-tmux.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-tmux)
 
 Installs [tmux](https://tmux.github.io/).
 
