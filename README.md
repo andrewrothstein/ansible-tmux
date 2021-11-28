@@ -1,6 +1,7 @@
 andrewrothstein.tmux
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-tmux.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-tmux)
+![Build Status](https://github.com/andrewrothstein/ansible-tmux/actions/workflows/build.yml/badge.svg)
+
 
 Installs [tmux](https://tmux.github.io/).
 
