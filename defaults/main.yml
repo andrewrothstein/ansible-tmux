@@ -1,2 +1,4 @@
 ---
 # defaults file for tmux
+tmux_os_pkgs:
+  - tmux

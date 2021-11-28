@@ -3,5 +3,5 @@
   become: yes
   become_user: root
   package:
-    name: tmux
+    name: '{{ tmux_os_pkgs }}'
     state: present
