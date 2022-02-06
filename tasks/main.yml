@@ -1,7 +1,7 @@
 ---
-- name: install tmux os pkgs
+- name: 'ensure tmux os pkgs are {{ state }}'
   become: yes
   become_user: root
   package:
     name: '{{ tmux_os_pkgs }}'
-    state: present
+    state: '{{ state }}'

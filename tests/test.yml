@@ -3,3 +3,5 @@
   remote_user: root
   roles:
     - tmux
+    - role: tmux
+      state: absent
