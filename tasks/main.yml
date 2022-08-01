@@ -2,6 +2,6 @@
 - name: tmux os pkgs
   become: true
   become_user: root
-  package:
+  ansible.builtin.package:
     name: '{{ tmux_os_pkgs }}'
     state: '{{ tmux_state | default("present") }}'
