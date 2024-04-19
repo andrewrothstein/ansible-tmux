@@ -1,5 +1,5 @@
 ---
-- name: tmux os pkgs
+- name: Installing OS pkgs
   become: true
   become_user: root
   ansible.builtin.package:

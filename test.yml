@@ -1,4 +1,13 @@
 ---
-- hosts: all
+- name: Testing andrewrothstein.tmux
+  hosts: all
   roles:
     - role: '{{ playbook_dir }}'
+  tasks:
+    - name: Executing 'tmux -V'
+      ansible.builtin.command: tmux -V
+      changed_when: false
+      register: tmux_test_output
+    - name: Output of 'tmux -V'
+      ansible.builtin.debug:
+        msg: '{{ tmux_test_output.stdout }}'
